@@ -1,0 +1,21 @@
+{
+    "name": "pictelle/crud-mvc-template",
+    "description": "Reusable PHP MVC CRUD template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pictelle",
+            "email": "contact@pictelle.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+
+}
+
