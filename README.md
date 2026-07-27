@@ -140,8 +140,6 @@ The objective is not to compete with Laravel or Symfony, but to learn the underl
 
 ## Learning Goals
 
-## Learning Goals
-
 This repository is part of the **PICTELLE PHP Starters** collection, developed by **Pictelle**, an independent digital craft workshop.
 
 Each starter explores a specific aspect of modern PHP development while remaining practical enough to be reused in real projects.
