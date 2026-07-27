@@ -1,15 +1,14 @@
-PHP MVC Starter
+PHP CRUD
 
 Current Version
 v1.0.0
 
 Next milestone
 - View Engine
-- Base Controller
-- View Renderer
+- Dynamic Routes
+- Route Parameters
 
 Future templates
-- CRUD
 - Authentication
 - Dashboard
-- Upload
+- File Upload

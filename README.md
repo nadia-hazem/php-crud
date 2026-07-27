@@ -1,30 +1,33 @@
 # PHP CRUD
 
-Part of the **Pictelle Developer Templates** collection.
+Part of the **PICTELLE PHP Starters** collection.
 
 Built on top of the PHP MVC Starter.
 
-This project is designed as a learning resource as much as a reusable foundation for future web applications. The goal is to understand how an MVC architecture works internally by building every component from scratch, without relying on a full-featured framework.
+This project extends the starter by introducing a complete database layer based on PDO, models and CRUD operations while preserving the educational philosophy of the collection.
 
 ---
 
 ## Features
 
-* Modern PHP 8+
-* Lightweight MVC architecture
-* PSR-4 autoloading with Composer
-* Custom Router
-* Dynamic controller dispatching
-* Clean project structure
-* Public directory as web root
-* Vanilla PHP (no framework)
+- Built on top of PHP MVC Starter
+- Modern PHP 8+
+- Lightweight MVC architecture
+- PDO database layer
+- Database service
+- User Model
+- CRUD operations
+- Prepared statements
+- PSR-4 autoloading
+- Clean project structure
+- Vanilla PHP (no framework)
 
 ---
 
 ## Project Structure
 
 ```text
-crud-mvc-template/
+php-crud/
 │
 ├── public/
 │   └── index.php
@@ -57,7 +60,7 @@ crud-mvc-template/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/crud-mvc-template.git
+git clone https://github.com/your-username/php-crud.git
 ```
 
 Install dependencies
@@ -111,26 +114,39 @@ The objective is not to compete with Laravel or Symfony, but to learn the underl
 
 ## Roadmap
 
-* ✅ Composer & PSR-4
-* ✅ Router
-* ✅ Dynamic Controller Dispatch
-* ⬜ View Engine
-* ⬜ Database Connection
-* ⬜ Models
-* ⬜ CRUD Operations
-* ⬜ Validation
-* ⬜ Sessions
-* ⬜ Authentication
-* ⬜ File Upload
-* ⬜ Pagination
+- ✅ PDO Database Connection
+- ✅ Database Class
+- ✅ User Model
+- ✅ Read Operations
+- ✅ Create Operation
+- ✅ Update Operation
+- ✅ Delete Operation
+- ⬜ View Engine
+- ⬜ Dynamic Routes
+- ⬜ Form Validation
+- ⬜ Flash Messages
+- ⬜ Error Handling
+
+---
+
+## Related Templates
+
+- PHP MVC Starter
+- PHP CRUD
+- PHP View Engine *(coming next)*
+- Dynamic Routing *(planned)*
 
 ---
 
 ## Learning Goals
 
-This repository is part of a collection of educational templates built for **Pictelle**, an independent digital craft workshop.
+## Learning Goals
 
-Each template focuses on understanding a specific aspect of web development while remaining practical enough to be reused in real projects.
+This repository is part of the **PICTELLE PHP Starters** collection, developed by **Pictelle**, an independent digital craft workshop.
+
+Each starter explores a specific aspect of modern PHP development while remaining practical enough to be reused in real projects.
+
+This volume introduces database interaction in an MVC application through PDO, models and a complete CRUD implementation built progressively from scratch.
 
 ---
 
