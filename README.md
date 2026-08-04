@@ -114,29 +114,39 @@ The objective is not to compete with Laravel or Symfony, but to learn the underl
 
 ## Roadmap
 
-- ✅ PDO Database Connection
-- ✅ Database Class
-- ✅ User Model
-- ✅ Read Operations
-- ✅ Create Operation
-- ✅ Update Operation
-- ✅ Delete Operation
-- ⬜ View Engine
-- ⬜ Dynamic Routes
-- ⬜ Form Validation
-- ⬜ Flash Messages
-- ⬜ Error Handling
+### Foundation Series
 
+* ✅ #1 MVC Starter
+
+* ✅ #2 CRUD
+
+* ⬜ #3 View Engine
+
+* ⬜ #4 Route Parameters
+
+---------------------
+
+### Advanced Series
+
+* ⬜ Authentication
+
+* ⬜ Dashboard
+
+* ⬜ Upload Images
+
+* ⬜ Search & Autocomplete
+
+* ⬜ Pagination
+
+* ⬜ Membership
+
+* ⬜ Calendar
+
+* ⬜ Reservation
+
+* ⬜ Comments
 ---
 
-## Related Templates
-
-- PHP MVC Starter
-- PHP CRUD
-- PHP View Engine *(coming next)*
-- Dynamic Routing *(planned)*
-
----
 
 ## Learning Goals
 
